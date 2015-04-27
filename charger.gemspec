@@ -9,15 +9,16 @@ Gem::Specification.new do |s|
   s.version     = Charger::VERSION
   s.authors     = ["Thiago Miranda"]
   s.email       = ["theprogramer@theprogramer.com.br"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Charger."
-  s.description = "TODO: Description of Charger."
+  s.homepage    = "http://theprogramer.com.br"
+  s.summary     = "Summary of Charger."
+  s.description = "Description of Charger."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
-  s.test_files = Dir["test/**/*"]
+  s.test_files = Dir["spec/**/*"]
 
   s.add_dependency "rails", "~> 4.2.0"
 
   s.add_development_dependency "sqlite3"
+  
 end
