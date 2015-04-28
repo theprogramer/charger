@@ -16,6 +16,8 @@ class CreateChargerPlans < ActiveRecord::Migration
       # t.boolean :max
       # t.integer :max_qty
 
+      t.string :gateway, default: ''
+
       t.references :downgrade_to
 
       t.timestamps null: false

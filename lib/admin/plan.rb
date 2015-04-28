@@ -30,6 +30,7 @@ if defined?(ActiveAdmin)
       	f.input :amount
       	f.input :interval_length
         f.input :interval_unit, as: :select, collection: Charger::Plan.interval_units.keys.to_a
+        f.input :gateway, as: :select, collection: Charger::Gateway.display_descendants
         f.input :trial_days
         f.input :setup_fee
         f.input :hold_setup_fee
