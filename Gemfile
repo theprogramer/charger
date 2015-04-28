@@ -14,7 +14,8 @@ gemspec
 # gem 'byebug', group: [:development, :test]
 group :development, :test do
   gem "rspec-rails", "~> 2.12.2"
-  gem "factory_girl_rails", "~> 4.0"
+  gem "shoulda"
+  gem "factory_girl_rails", "~> 4.5.0"
   gem "activeadmin", github: "activeadmin"
   gem "devise"
 end
