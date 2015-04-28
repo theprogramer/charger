@@ -16,5 +16,8 @@ module Charger
       :annually
     ]
 
+    # Validations
+    validates_presence_of :name, :amount
+
   end
 end
