@@ -1,7 +1,25 @@
 require 'spec_helper'
 
 module Charger
-  describe Wallet do
-    pending "add some examples to (or delete) #{__FILE__}"
+
+  RSpec.describe Wallet, type: :model do
+    describe "creation" do
+
+      context "valid attributes" do
+
+        it "should be valid" do
+          charger_wallet = FactoryGirl.build(:charger_wallet)
+
+          expect(charger_wallet).to be_valid
+        end
+
+      end
+
+      context "validations" do
+        it { should validate_presence_of :name }
+        it { should validate_presence_of :holder }
+      end
+    end
   end
+
 end

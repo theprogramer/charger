@@ -1,7 +1,23 @@
 require 'spec_helper'
 
 module Charger
-  describe Subscription do
-    pending "add some examples to (or delete) #{__FILE__}"
+  RSpec.describe Subscription, type: :model do
+    describe "creation" do
+
+      context "valid attributes" do
+
+        it "should be valid" do
+          charger_subscription = FactoryGirl.build(:charger_subscription)
+
+          expect(charger_subscription).to be_valid
+        end
+
+      end
+
+      context "validations" do
+        it { should validate_presence_of :plan }
+        it { should validate_presence_of :subscriber }
+      end
+    end
   end
 end

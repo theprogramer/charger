@@ -3,7 +3,9 @@ class CreateChargerWallets < ActiveRecord::Migration
     create_table :charger_wallets do |t|
       t.string :name, default: ''
       t.text :description
-      t.references :holder, index: true, foreign_key: true
+      t.belongs_to :holder, polymorphic: true, index: true
+
+      t.decimal :total, default: 0
 
       t.timestamps null: false
     end

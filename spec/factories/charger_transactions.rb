@@ -1,11 +1,14 @@
 FactoryGirl.define do
   factory :charger_transaction, :class => 'Charger::Transaction' do
-    wallet nil
-description "MyText"
-date "2015-04-28 13:48:18"
-expence "9.99"
-income "9.99"
-status 1
+
+    description "Nope"
+    date Time.now
+    expence 0
+    income 0
+    status 0
+
+    association :wallet, factory: :charger_wallet
+
   end
 
 end

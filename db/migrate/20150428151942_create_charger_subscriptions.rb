@@ -2,7 +2,7 @@ class CreateChargerSubscriptions < ActiveRecord::Migration
   def change
     create_table :charger_subscriptions do |t|
 
-      t.references :subscriber
+      t.belongs_to :subscriber, polymorphic: true #, index: true
       t.references :plan
       t.integer :status
       
