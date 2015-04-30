@@ -19,6 +19,10 @@ module Charger
         it { should validate_presence_of :wallet }
         it { should validate_presence_of :date }
       end
+
+      describe "assotiations" do
+        it { should belong_to :wallet }
+      end
     end
   end
 

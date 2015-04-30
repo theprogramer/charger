@@ -8,5 +8,7 @@ module Charger
     # Assotiations
     belongs_to :holder, polymorphic: true
 
+    has_many :transactions
+
   end
 end

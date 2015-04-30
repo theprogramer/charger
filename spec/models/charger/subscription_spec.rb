@@ -19,5 +19,10 @@ module Charger
         it { should validate_presence_of :subscriber }
       end
     end
+
+    describe ".charge" do
+      
+    end
+
   end
 end

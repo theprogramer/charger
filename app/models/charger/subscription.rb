@@ -9,5 +9,9 @@ module Charger
     belongs_to :plan
     belongs_to :subscriber, polymorphic: true
 
+    def charge
+      
+    end
+
   end
 end

@@ -6,7 +6,7 @@ class CreateChargerTransactions < ActiveRecord::Migration
       t.datetime :date
       t.decimal :expence
       t.decimal :income
-      t.integer :status
+      t.integer :status, default: 0
 
       t.timestamps null: false
     end
