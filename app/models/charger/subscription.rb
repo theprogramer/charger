@@ -9,8 +9,9 @@ module Charger
     belongs_to :plan
     belongs_to :subscriber, polymorphic: true
 
+    # Generate a Billing
     def charge
-      
+      #self.subscrib
     end
 
   end
