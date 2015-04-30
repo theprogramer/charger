@@ -19,6 +19,7 @@ module Charger
 
     # Callbacks
     after_save :update_total
+    before_save :initialize_status
 
     def expences
       Transaction.where(wallet_id: self.wallet, status: Transaction.statuses[:completed]).sum :expence
@@ -32,7 +33,9 @@ module Charger
       self.wallet.update_attribute :total, self.incomes - self.expences
     end
 
-
+    def initialize_status
+      self.status = Transaction.statuses[:scheduled] if self.date > Time.now
+    end
 
   end
 end

@@ -24,6 +24,62 @@ module Charger
         it { should belong_to :wallet }
       end
     end
+
+    describe ".update_total" do
+
+      let(:wallet) { FactoryGirl.create :charger_wallet }
+
+      it "should update wallet total" do
+        
+        expect(wallet.total).to eq(0.0)
+        transaction = wallet.transactions.build(income: 10.0, date: Time.now)
+        expect(transaction).to be_valid
+        transaction.save
+        expect(wallet.total).to eq(10.0)
+        transaction = wallet.transactions.build(expence: 5.0, date: Time.now)
+        expect(transaction).to be_valid
+        transaction.save
+        expect(wallet.total).to eq(5.0)
+
+      end
+
+      it "should not count scheduled transactions" do
+        
+        expect(wallet.total).to eq(0.0)
+        transaction = wallet.transactions.build(income: 10.0, date: Time.now)
+        expect(transaction).to be_valid
+        transaction.save
+        expect(wallet.total).to eq(10.0)
+
+        transaction = wallet.transactions.build(expence: 5.0, date: Time.now + 1.day)
+        expect(transaction).to be_valid
+        transaction.save
+        expect(wallet.total).to eq(10.0)
+
+      end
+
+    end
+
+    describe ".initialize_status" do
+
+      let(:wallet) { FactoryGirl.create :charger_wallet }
+
+      it "should initializes the status according to the date" do
+        
+        transaction = wallet.transactions.build(income: 10.0, date: Time.now)
+        expect(transaction).to be_valid
+        transaction.save
+        expect(transaction.status).to eq("completed")
+
+        transaction = wallet.transactions.build(income: 10.0, date: Time.now + 1.day)
+        expect(transaction).to be_valid
+        transaction.save
+        expect(transaction.status).to eq("scheduled")
+
+      end
+
+    end
+
   end
 
 end
