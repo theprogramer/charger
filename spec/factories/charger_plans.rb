@@ -8,7 +8,7 @@ FactoryGirl.define do
     name { generate :charger_plan_name }
     description "MyText"
     slug "plan"
-    amount 15.0
+    amount { [15.0, 25.0, 35.0].sample }
     interval_length 1
     interval_unit 1
     setup_fee 0.0

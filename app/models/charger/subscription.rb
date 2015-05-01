@@ -14,5 +14,14 @@ module Charger
       #self.subscrib
     end
 
+    # Generate a new Billing
+    def bill
+      wallet = self.subscriber.default_wallet
+      transaction = wallet.transactions.build date: Time.now,
+                                              expence: self.plan.amount,
+                                              description: self.plan.name
+      transaction.save
+    end
+
   end
 end
