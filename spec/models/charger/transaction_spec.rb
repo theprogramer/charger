@@ -69,7 +69,7 @@ module Charger
         transaction = wallet.transactions.build(income: 10.0, date: Time.now)
         expect(transaction).to be_valid
         transaction.save
-        expect(transaction.status).to eq("completed")
+        expect(transaction.status).to eq("pending")
 
         transaction = wallet.transactions.build(income: 10.0, date: Time.now + 1.day)
         expect(transaction).to be_valid

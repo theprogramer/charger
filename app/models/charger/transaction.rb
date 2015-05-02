@@ -10,6 +10,7 @@ module Charger
 
     # Status
     enum status: [
+      :pending,
       :completed,
       :refund,
       :placed,
@@ -22,11 +23,21 @@ module Charger
     before_save :initialize_status
 
     def expences
-      Transaction.where(wallet_id: self.wallet, status: Transaction.statuses[:completed]).sum :expence
+      Transaction.where(wallet_id: self.wallet,
+                        status: [
+                                  Transaction.statuses[:pending],
+                                  Transaction.statuses[:completed]
+                                ]
+                       ).sum :expence
     end
 
     def incomes
-      Transaction.where(wallet_id: self.wallet, status: Transaction.statuses[:completed]).sum :income
+      Transaction.where(wallet_id: self.wallet,
+                        status: [
+                                  Transaction.statuses[:pending],
+                                  Transaction.statuses[:completed]
+                                ]
+                       ).sum :income
     end
 
     def update_total
