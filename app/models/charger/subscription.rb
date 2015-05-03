@@ -9,6 +9,8 @@ module Charger
     belongs_to :plan
     belongs_to :subscriber, polymorphic: true
 
+    has_many :billings
+
     # Generate a Billing
     def charge
       #self.subscrib
@@ -17,10 +19,16 @@ module Charger
     # Generate a new Billing
     def bill
       wallet = self.subscriber.default_wallet
-      transaction = wallet.transactions.build date: Time.now,
-                                              expence: self.plan.amount,
-                                              description: self.plan.name
-      transaction.save
+      transaction = wallet.transactions.build(
+                                                date: Time.now,
+                                                expence: self.plan.amount,
+                                                description: self.plan.name
+                                              ).save
+      billing = self.billings.build(
+                                      amount: wallet.total,
+                                      description: "Test"
+                                    ).save
+
     end
 
   end

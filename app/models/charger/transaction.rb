@@ -15,7 +15,8 @@ module Charger
       :refund,
       :placed,
       :canceled,
-      :scheduled
+      :scheduled,
+      :rejected
     ]
 
     # Callbacks
