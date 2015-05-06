@@ -7,5 +7,7 @@ module Charger
     # Assotiations
     belongs_to :subscription
 
+    has_many :transactions
+
   end
 end

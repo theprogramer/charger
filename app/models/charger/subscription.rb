@@ -28,7 +28,11 @@ module Charger
                                       amount: wallet.total,
                                       description: "Test"
                                     ).save
+      wallet.transactions.pending.update_all billing_id: billing
+    end
 
+    def downgrade!
+      self.update plan_id: self.plan.downgrade_to
     end
 
   end

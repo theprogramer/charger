@@ -18,6 +18,12 @@ module Charger
       context "validations" do
         it { should validate_presence_of :subscription }
       end
+
+      describe "assotiations" do
+        it { should belong_to :subscription }
+        it { should have_many :transactions }
+      end
+
     end
   end
 

@@ -41,6 +41,7 @@ module Charger
         expect(subscription.subscriber.default_wallet.total * (-1)).to eq(subscription.plan.amount)
         expect(subscription.billings.count).to eq(1)
         expect(subscription.subscriber.default_wallet.total).to eq(subscription.billings.first.amount)
+        expect(subscription.billings.first.transactions.count).to eq(1)
       end
 
     end

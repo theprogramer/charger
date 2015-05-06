@@ -22,6 +22,7 @@ module Charger
 
       describe "assotiations" do
         it { should belong_to :wallet }
+        it { should belong_to :billing }
       end
     end
 
@@ -75,6 +76,20 @@ module Charger
         expect(transaction).to be_valid
         transaction.save
         expect(transaction.status).to eq("scheduled")
+
+      end
+
+    end
+
+    describe "self.update_status" do
+
+      let(:transaction) { FactoryGirl.create :charger_transaction, date: Time.now - 1.day, status: 0 }
+
+      it "should update status according to the date" do
+
+        expect(Transaction.pending.count).to eq(1)
+        expect(Transaction.update_status).to eq(1)
+        expect(Transaction.pending.count).to eq(0)
 
       end
 

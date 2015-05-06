@@ -1,5 +1,6 @@
 class CreateChargerBillings < ActiveRecord::Migration
   def change
+
     create_table :charger_billings do |t|
 
       t.references :subscription
@@ -8,6 +9,8 @@ class CreateChargerBillings < ActiveRecord::Migration
       t.text :observation
 
       t.integer :status, default: 0
+
+      t.string :gateway, default: ''
 
       t.timestamps null: false
     end

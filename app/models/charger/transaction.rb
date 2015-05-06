@@ -7,6 +7,7 @@ module Charger
 
   	# Assotiations
     belongs_to :wallet
+    belongs_to :billing
 
     # Status
     enum status: [
@@ -46,7 +47,16 @@ module Charger
     end
 
     def initialize_status
-      self.status = Transaction.statuses[:scheduled] if self.date > Time.now
+      self.status = Transaction.statuses[:scheduled] if self.date > Time.now.end_of_day
+    end
+
+    def self.update_status
+      Transaction.where(["date < ?", Time.now.end_of_day])
+                 .where(
+                        status: [
+                                  Transaction.statuses[:pending]
+                                ]
+                        ).update_all status: Transaction.statuses[:completed]
     end
 
   end
