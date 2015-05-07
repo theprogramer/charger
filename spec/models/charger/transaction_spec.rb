@@ -87,8 +87,8 @@ module Charger
 
       it "should update status according to the date" do
 
-        expect(Transaction.pending.count).to eq(1)
-        expect(Transaction.update_status).to eq(1)
+        expect(Transaction.pending.count).to be >= 1
+        expect(Transaction.update_status).to be >= 1
         expect(Transaction.pending.count).to eq(0)
 
       end

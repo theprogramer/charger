@@ -4,7 +4,7 @@ class CreateChargerSubscriptions < ActiveRecord::Migration
 
       t.belongs_to :subscriber, polymorphic: true #, index: true
       t.references :plan
-      t.integer :status
+      t.integer :status, default: 0
       
       t.integer :billings_count, default: 0
 

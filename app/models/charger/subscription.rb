@@ -5,6 +5,13 @@ module Charger
   	validates_presence_of :plan
   	validates_presence_of :subscriber
 
+    # Status
+    enum status: [
+      :enabled,
+      :disabled,
+      :canceled
+    ]
+
   	# Assotiations
     belongs_to :plan
     belongs_to :subscriber, polymorphic: true
