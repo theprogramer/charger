@@ -9,6 +9,7 @@ class CreateChargerSubscriptions < ActiveRecord::Migration
       t.integer :billings_count, default: 0
 
       t.datetime :first_payment_at
+      t.datetime :next_payment_at
       t.datetime :last_payment_at
 
       t.timestamps null: false

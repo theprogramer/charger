@@ -28,7 +28,7 @@ module Charger
       wallet = self.subscriber.default_wallet
       transaction = wallet.transactions.build(
                                                 date: Time.now,
-                                                expence: self.plan.amount,
+                                                expence: self.calculate_amount,
                                                 description: self.plan.name
                                               ).save
       billing = self.billings.build(
@@ -40,6 +40,35 @@ module Charger
 
     def downgrade!
       self.update plan_id: self.plan.downgrade_to
+    end
+
+    def calculate_amount
+      amount = 0
+      case self.billings_count
+      when 0
+        # On Subscribe!
+        # If hold setup fee
+        amount += self.plan.setup_fee if self.plan.hold_setup_fee
+        # If have trial days
+        amount += self.plan.amount unless self.plan.trial_days < 0
+      #Infinity
+      #when 1..(1.0/0.0)
+      else
+        # Recurring payments
+        amount += self.plan.amount
+      end
+    end
+
+    def calculate_next_due
+      case self.billings_count
+      when 0
+        # On Subscribe!
+        # If have trial days
+        Time.now + (self.plan.trial_days).days unless self.plan.trial_days < 0
+      else
+        # Recurring payments
+        self.last_payment_at + self.plan.interval
+      end
     end
 
   end
