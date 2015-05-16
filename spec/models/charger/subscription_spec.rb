@@ -4,6 +4,7 @@ module Charger
   RSpec.describe Subscription, type: :model do
 
     let(:subscription) { FactoryGirl.create :charger_subscription }
+    let(:subscription_with_setup_fee) { FactoryGirl.create(:charger_subscription, plan: :charger_plan_with_setup_fee) }
 
     describe "creation" do
 
@@ -44,6 +45,13 @@ module Charger
         expect(subscription.billings.first.transactions.count).to eq(1)
       end
 
+    end
+
+
+    describe ".calculate_amount" do
+      it "should return amount with setup fee" do
+        expect(subscription_with_setup_fee.calculate_amount).to eq(subscription_with_setup_fee.plan.amount + subscription_with_setup_fee.setup_fee)
+      end
     end
 
   end

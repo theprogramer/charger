@@ -20,6 +20,10 @@ FactoryGirl.define do
     # max
     # max_qty
     downgrade_to nil
+
+    factory :charger_plan_with_setup_fee, :class => 'Charger::Plan' do
+      setup_fee 15.0
+    end
   end
 
 end
