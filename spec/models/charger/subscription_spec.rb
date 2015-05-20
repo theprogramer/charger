@@ -54,5 +54,9 @@ module Charger
       end
     end
 
+    describe ".calcel!" do
+      pending "Pending!"
+    end
+
   end
 end

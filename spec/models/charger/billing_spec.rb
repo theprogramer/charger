@@ -25,6 +25,13 @@ module Charger
       end
 
     end
+
+    describe ".reject!" do
+
+      pending "Pending!"
+
+    end
+
   end
 
 end

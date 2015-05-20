@@ -7,6 +7,7 @@ class CreateChargerSubscriptions < ActiveRecord::Migration
       t.integer :status, default: 0
       
       t.integer :billings_count, default: 0
+      t.integer :rejects_count, default: 0
 
       t.datetime :first_payment_at
       t.datetime :next_payment_at

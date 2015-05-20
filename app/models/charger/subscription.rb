@@ -71,5 +71,10 @@ module Charger
       end
     end
 
+    def cancel!
+      self.update_attribute :status,
+                            Subscription.statuses[:canceled] if self.rejects_count >= Charger.max_transactions_errors
+    end
+
   end
 end
