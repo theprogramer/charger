@@ -1,0 +1,4 @@
+h1 Planos
+ul
+  - Charger::Plan.visibles.each do |plan|
+    li= plan.name

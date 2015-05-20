@@ -13,6 +13,7 @@ class CreateChargerPlans < ActiveRecord::Migration
       t.integer :trial_days, default: 0
       t.boolean :hold_setup_fee, default: false
       t.boolean :enabled, default: true
+      t.boolean :visible, default: true
       # t.boolean :max
       # t.integer :max_qty
 

@@ -16,6 +16,9 @@ module Charger
       :annually
     ]
 
+    # Scopes
+    scope :visibles, -> { where(enabled: true) }
+
     # Validations
     validates_presence_of :name, :amount
 
