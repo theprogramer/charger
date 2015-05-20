@@ -10,10 +10,16 @@ gemspec
 # Git. Remember to move these dependencies to your gemspec before releasing
 # your gem to rubygems.org.
 
-gem "slim"
+# Use jquery as the JavaScript library
+gem 'jquery-rails'
+
+# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+gem 'jbuilder', '~> 2.0'
 
 # To use a debugger
 # gem 'byebug', group: [:development, :test]
+
+
 group :development, :test do
   gem "rspec-rails", "~> 2.12.2"
   gem "shoulda"

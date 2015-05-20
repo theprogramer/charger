@@ -10,6 +10,11 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
  *= require_self
  */
+ 
+ @import "bootstrap-sass/_bootstrap-sprockets";
+
+ $icon-font-path: if($bootstrap-sass-asset-helper, "bootstrap-sass/", "../fonts/bootstrap-sass/") !default;
+
+ @import "bootstrap-sass";

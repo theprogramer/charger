@@ -1,0 +1,29 @@
+<h1>Coupom</h1>
+<form>
+  <input type="text" name="coupom" id="charger_plan_coupom" />
+</form>
+<h1>Planos</h1>
+<ul>
+  <% Charger::Plan.visibles.each do |plan| %>
+    <li>
+      <h2><%= plan.name %></h2>
+      <p><%= plan.description %></p>
+    </li>
+  <% end %>
+</ul>
+
+<%= javascript_tag do %>
+  $("#charger_plan_coupom").keypress(function() {
+    if ($(this).val().length > 5 ) {
+      $.ajax({
+        method: "GET",
+        url: "<%= subscriptions_path %>/" + $(this).val(),
+        data: [],
+        success: function( data, status) {
+          alert(data);
+        }
+      });
+      //alert("asdsda");
+    }
+  });
+<% end %>
