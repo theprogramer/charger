@@ -13,7 +13,7 @@ if defined?(ActiveAdmin)
     # Plan form
     form do |f|
       f.inputs "Details" do
-        f.input :subscriber, as: :select, collection: []
+        f.input :subscriber, as: :select, collection: Charger.subscriber_class.constantize.all
         f.input :plan
         f.input :status
       end
