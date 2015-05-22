@@ -2,6 +2,7 @@ module Charger
   class Engine < ::Rails::Engine
     require 'jquery-rails'
     require 'jbuilder'
+    require 'friendly_id'
     isolate_namespace Charger
 
     # Use Rspec for tests

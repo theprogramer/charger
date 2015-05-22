@@ -22,6 +22,18 @@ module Charger
     # Validations
     validates_presence_of :name, :amount
 
+    # Firendly Id
+    extend ::FriendlyId
+    friendly_id :slug_candidates, use: :slugged
+
+    # Try building a slug based on the following fields in
+    # increasing order of specificity.
+    def slug_candidates
+      [
+        :name
+      ]
+    end
+
     def interval
       case Charger::Plan.interval_units[self.interval_unit]
       when Plan.interval_units[:hourly]

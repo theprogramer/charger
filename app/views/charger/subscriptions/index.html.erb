@@ -13,15 +13,19 @@
 </ul>
 
 <%= javascript_tag do %>
-  $("#charger_plan_coupom").keypress(function() {
+  $("#charger_plan_coupom").keyup(function() {
     if ($(this).val().length > 5 ) {
       $.ajax({
+        //dataType: "json",
         method: "GET",
-        url: "<%= subscriptions_path %>/" + $(this).val(),
+        url: "<%= plans_path %>/" + $(this).val(),
         data: [],
         success: function( data, status) {
           alert(data);
-        }
+          console.log(data);
+        }//,
+        //error: alert("error"),
+        //complete: alert("complete")
       });
       //alert("asdsda");
     }

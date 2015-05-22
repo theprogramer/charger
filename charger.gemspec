@@ -20,6 +20,7 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", "~> 4.2.0"
   s.add_dependency "jquery-rails", "~> 4.0.3"
   s.add_dependency "jbuilder", "~> 2.0"
+  s.add_dependency "friendly_id"
 
   s.add_development_dependency "sqlite3"
   s.add_development_dependency 'factory_girl_rails'

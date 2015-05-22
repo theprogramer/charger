@@ -1,0 +1,1242 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"send",
+				"sendNotification"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"Bem",
+				"Bem-vindo"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"backg",
+				"background-repeat"
+			],
+			[
+				"se",
+				"search"
+			],
+			[
+				"job_",
+				"job_title"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"availabily",
+				"Availability"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"content",
+				"content_tag"
+			],
+			[
+				"is",
+				"is_housemaid"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/models/charger/transaction.rb",
+			"settings":
+			{
+				"buffer_size": 1631,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/charger/plan.rb",
+			"settings":
+			{
+				"buffer_size": 1492,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 902,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/charger/application.css",
+			"settings":
+			{
+				"buffer_size": 686,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/theprogramer/Projetos/primas/Gemfile",
+			"settings":
+			{
+				"buffer_size": 2529,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/theprogramer/Projetos/primas/app/assets/javascripts/application.js",
+			"settings":
+			{
+				"buffer_size": 775,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/dummy/app/assets/javascripts/application.js",
+			"settings":
+			{
+				"buffer_size": 766,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/javascripts/charger/application.js",
+			"settings":
+			{
+				"buffer_size": 766,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/charger/engine.rb",
+			"settings":
+			{
+				"buffer_size": 783,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "charger.gemspec",
+			"settings":
+			{
+				"buffer_size": 872,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/charger/plans_controller.rb",
+			"settings":
+			{
+				"buffer_size": 734,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/charger/plans/edit.html.erb",
+			"settings":
+			{
+				"buffer_size": 44,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/charger/plans/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 33,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 138,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/charger/subscriptions/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 747,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/charger/plans/show.json.jbuilder",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/theprogramer/Projetos/cuidados_marinho/build/library/dispatcher.php",
+			"settings":
+			{
+				"buffer_size": 579,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/theprogramer/Projetos/domesticanet/config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 3461,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/dummy/config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 206,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/charger/billing.rb",
+			"settings":
+			{
+				"buffer_size": 805,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/charger/subscription.rb",
+			"settings":
+			{
+				"buffer_size": 2107,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 75.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 458.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/theprogramer/Projetos/engines/charger/app/views/charger/subscriptions/index.html.slim",
+		"/home/theprogramer/Projetos/engines/charger/spec/dummy/app/assets/stylesheets/application.css",
+		"/home/theprogramer/Projetos/primas/app/assets/stylesheets/application.css.scss",
+		"/home/theprogramer/Projetos/cuidados_marinho/source/library/dispatcher.php",
+		"/home/theprogramer/Projetos/cuidados_marinho/source/orcamentos.html.slim",
+		"/home/theprogramer/Projetos/engines/charger/app/models/charger/plan.rb",
+		"/home/theprogramer/Projetos/engines/charger/db/migrate/20150428154043_create_charger_billings.rb",
+		"/home/theprogramer/Projetos/engines/charger/db/migrate/20150428151942_create_charger_subscriptions.rb",
+		"/home/theprogramer/Projetos/engines/charger/db/migrate/20150427145253_create_charger_plans.rb",
+		"/home/theprogramer/Projetos/engines/charger/spec/models/charger/subscription_spec.rb",
+		"/home/theprogramer/Projetos/engines/charger/spec/models/charger/billing_spec.rb",
+		"/home/theprogramer/Projetos/engines/charger/spec/models/charger/wallet_spec.rb",
+		"/home/theprogramer/Projetos/engines/charger/lib/charger/engine.rb",
+		"/home/theprogramer/Projetos/engines/charger/lib/charger.rb",
+		"/home/theprogramer/Projetos/escambo/config/initializers/commontator.rb",
+		"/home/theprogramer/Projetos/cuidados_marinho/Gemfile",
+		"/home/theprogramer/Projetos/cuidados_marinho/source/cadastro-profissional.html.slim",
+		"/home/theprogramer/Projetos/cuidados_marinho/source/fale-conosco.html.slim",
+		"/home/theprogramer/Projetos/cuidados_marinho/source/library/dispatcher.php.slim",
+		"/home/theprogramer/Projetos/cuidados_marinho/build/library/dispatcher.php",
+		"/home/theprogramer/Projetos/engines/charger/spec/dummy/config/initializers/charger.rb",
+		"/home/theprogramer/Projetos/escambo/config/initializers/fog.rb",
+		"/home/theprogramer/Projetos/escambo/app/views/devise/shared/_links.html.slim",
+		"/home/theprogramer/Projetos/escambo/app/views/devise/sessions/new.html.slim",
+		"/home/theprogramer/Projetos/escambo/config/application.rb",
+		"/home/theprogramer/Projetos/escambo/app/views/shared/_header.html.slim",
+		"/home/theprogramer/Projetos/escambo/app/views/pages/home.html.slim",
+		"/home/theprogramer/Projetos/escambo/config/locales/pt-BR.yml",
+		"/home/theprogramer/Projetos/escambo/config/locales/commontable.pt-BR.yml",
+		"/home/theprogramer/Projetos/escambo/Gemfile",
+		"/home/theprogramer/Projetos/escambo/db/migrate/20150422200927_create_products.rb",
+		"/home/theprogramer/Projetos/escambo/db/migrate/20150422192922_create_categories.rb",
+		"/home/theprogramer/Projetos/escambo/db/migrate/20150422191016_devise_create_users.rb",
+		"/home/theprogramer/Projetos/escambo/app/controllers/products_controller.rb",
+		"/home/theprogramer/Projetos/potededocuras/Procfile",
+		"/home/theprogramer/Projetos/escambo/app/models/user.rb",
+		"/home/theprogramer/Projetos/escambo/app/models/product.rb",
+		"/home/theprogramer/Projetos/escambo/app/helpers/commontator/application_helper.rb",
+		"/home/theprogramer/Projetos/escambo/app/helpers/comments_helper.rb",
+		"/home/theprogramer/Projetos/escambo/app/views/commontator/comments/_body.html.erb",
+		"/home/theprogramer/Projetos/escambo/app/views/products/show.html.slim",
+		"/home/theprogramer/Projetos/escambo/app/models/commontator/comment.rb",
+		"/home/theprogramer/Projetos/escambo/app/views/products/_recent.html.slim",
+		"/home/theprogramer/Projetos/escambo/app/controllers/commontator/comments_controller.rb",
+		"/home/theprogramer/Projetos/escambo/app/views/commontator/comments/_form.html.erb",
+		"/home/theprogramer/Projetos/escambo/db/migrate/20150514223911_install_commontator.commontator.rb",
+		"/home/theprogramer/Projetos/escambo/db/migrate/20150515021706_add_fields_to_commontator_comments.rb",
+		"/home/theprogramer/Projetos/escambo/app/helpers/states_helper.rb",
+		"/home/theprogramer/Projetos/escambo/app/helpers/products_helper.rb",
+		"/home/theprogramer/Projetos/escambo/app/views/panel/products/_form.html.slim",
+		"/home/theprogramer/Projetos/escambo/config/environments/production.rb",
+		"/home/theprogramer/Projetos/escambo/config/initializers/refile.rb",
+		"/home/theprogramer/Projetos/escambo/.env",
+		"/home/theprogramer/Projetos/escambo/app/controllers/panel/products_controller.rb",
+		"/home/theprogramer/Projetos/escambo/app/views/layouts/application.html.slim",
+		"/home/theprogramer/Projetos/escambo/config/initializers/asset_sync.rb",
+		"/home/theprogramer/Projetos/escambo/config/initializers/assets.rb",
+		"/home/theprogramer/Projetos/escambo/app/assets/javascripts/scripts.js.coffee",
+		"/home/theprogramer/Projetos/escambo/app/assets/javascripts/application.js",
+		"/home/theprogramer/Projetos/escambo/config/routes.rb",
+		"/home/theprogramer/Projetos/escambo/config/locales/en.yml",
+		"/home/theprogramer/Projetos/escambo/app/views/panel/products/index.html.slim",
+		"/home/theprogramer/Projetos/escambo/app/assets/stylesheets/application.css.scss",
+		"/home/theprogramer/Projetos/escambo/app/views/products/index.html.slim",
+		"/home/theprogramer/Projetos/escambo/app/views/shared/_sidebar.html.slim",
+		"/home/theprogramer/Projetos/escambo/app/controllers/categories_controller.rb",
+		"/home/theprogramer/Projetos/escambo/app/views/categories/show.html.slim",
+		"/home/theprogramer/Projetos/escambo/config/initializers/kaminari_config.rb",
+		"/home/theprogramer/Projetos/escambo/app/views/products/_product.html.slim",
+		"/home/theprogramer/Projetos/escambo/config/environments/development.rb",
+		"/home/theprogramer/Projetos/escambo/app/views/pages/tos.html.slim",
+		"/home/theprogramer/Projetos/escambo/app/models/category.rb",
+		"/home/theprogramer/Projetos/primas/config/routes.rb",
+		"/home/theprogramer/Projetos/potededocuras/config/routes.rb",
+		"/home/theprogramer/Projetos/escambo/app/views/kaminari/_last_page.html.slim",
+		"/home/theprogramer/Projetos/escambo/app/views/kaminari/_prev_page.html.slim",
+		"/home/theprogramer/Projetos/escambo/app/views/kaminari/_paginator.html.slim",
+		"/home/theprogramer/Projetos/escambo/app/views/kaminari/_page.html.slim",
+		"/home/theprogramer/Projetos/escambo/app/views/kaminari/_next_page.html.slim",
+		"/home/theprogramer/Projetos/escambo/app/views/kaminari/_first_page.html.slim",
+		"/home/theprogramer/Projetos/escambo/app/views/kaminari/_gap.html.slim",
+		"/home/theprogramer/Projetos/primas/config/initializers/refile.rb",
+		"/home/theprogramer/Projetos/primas/config/initializers/assets.rb",
+		"/home/theprogramer/Projetos/primas/app/assets/javascripts/application.js",
+		"/home/theprogramer/Projetos/escambo/app/controllers/application_controller.rb",
+		"/home/theprogramer/Projetos/primas/app/assets/javascripts/scripts.js.coffee.erb",
+		"/home/theprogramer/Projetos/primas/app/assets/javascripts/active_admin.js.coffee",
+		"/home/theprogramer/Projetos/primas/app/views/devise/registrations/new.html.slim",
+		"/home/theprogramer/Projetos/projetoninja/Gemfile",
+		"/home/theprogramer/Projetos/projetoninja/config/database.yml",
+		"/home/theprogramer/Projetos/escambo/config/database.yml",
+		"/home/theprogramer/Projetos/escambo/app/views/shared/_footer.html.slim",
+		"/home/theprogramer/Projetos/projetoninja/config/routes.rb",
+		"/home/theprogramer/Projetos/domesticanet/app/assets/stylesheets/application.css.scss",
+		"/home/theprogramer/Projetos/cuidados_marinho/config.rb",
+		"/home/theprogramer/Projetos/cuidados_marinho/source/javascripts/all.js",
+		"/home/theprogramer/Projetos/cuidados_marinho/source/stylesheets/all.css.scss",
+		"/home/theprogramer/Projetos/theprogramer-middleman/config.rb",
+		"/home/theprogramer/Projetos/theprogramer-middleman/Gemfile",
+		"/home/theprogramer/Projetos/theprogramer-middleman/source/javascripts/all.js",
+		"/home/theprogramer/Projetos/theprogramer-middleman/source/stylesheets/all.css.scss",
+		"/home/theprogramer/Projetos/theprogramer-middleman/source/layouts/layout.slim",
+		"/home/theprogramer/Projetos/theprogramer-middleman/source/stylesheets/all.css",
+		"/home/theprogramer/Projetos/engines/team/Gemfile",
+		"/home/theprogramer/Projetos/engines/charger/app/models/charger/subscription.rb",
+		"/home/theprogramer/Projetos/engines/charger/spec/factories/charger_plans.rb",
+		"/home/theprogramer/Projetos/engines/charger/spec/models/charger/plan_spec.rb",
+		"/home/theprogramer/Projetos/engines/charger/lib/admin/subscription.rb",
+		"/home/theprogramer/Projetos/engines/charger/app/models/charger/billing.rb",
+		"/home/theprogramer/Projetos/engines/charger/app/models/charger/transaction.rb",
+		"/home/theprogramer/Projetos/engines/charger/spec/models/charger/transaction_spec.rb",
+		"/home/theprogramer/Projetos/engines/charger/db/migrate/20150428164818_create_charger_transactions.rb",
+		"/home/theprogramer/Projetos/engines/charger/spec/dummy/db/migrate/20150427154954_devise_create_users.rb",
+		"/home/theprogramer/Projetos/engines/charger/spec/factories/charger_subscriptions.rb",
+		"/home/theprogramer/Projetos/engines/charger/spec/factories/charger_holder.rb",
+		"/home/theprogramer/Projetos/engines/charger/app/models/charger/wallet.rb",
+		"/home/theprogramer/Projetos/engines/charger/app/models/concerns/charger/subscribed.rb",
+		"/home/theprogramer/Projetos/engines/charger/spec/dummy/app/models/user.rb",
+		"/home/theprogramer/Projetos/engines/charger/db/migrate/20150503133917_create_join_table_billing_transaction.rb",
+		"/home/theprogramer/Projetos/engines/charger/lib/admin/plan.rb",
+		"/home/theprogramer/Projetos/engines/charger/spec/factories/charger_billings.rb",
+		"/home/theprogramer/Projetos/engines/charger/spec/factories/charger_wallets.rb",
+		"/home/theprogramer/Projetos/engines/charger/spec/spec_helper.rb",
+		"/home/theprogramer/Projetos/engines/charger/spec/dummy/spec/spec_helper.rb",
+		"/home/theprogramer/Projetos/engines/charger/spec/dummy/config/environments/development.rb",
+		"/home/theprogramer/Projetos/engines/charger/spec/dummy/config/application.rb",
+		"/home/theprogramer/Projetos/engines/charger/db/migrate/20150428164542_create_charger_wallets.rb",
+		"/home/theprogramer/Projetos/engines/team/team.gemspec"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"/home/theprogramer/Projetos/onebody/config/locales/pt-BR",
+			"/home/theprogramer/Projetos/potededocuras/app/assets",
+			"/home/theprogramer/Projetos/domesticanet/app/assets",
+			"/home/theprogramer/Projetos/domesticanet/db/migrate",
+			"/home/theprogramer/Projetos/domesticanet/app",
+			"/home/theprogramer/Projetos/domesticanet/app/views",
+			"",
+			"<open files>",
+			"",
+			"/home/theprogramer/Projetos/potededocuras_rails/",
+			"/home/theprogramer/Projetos/domesticanet/",
+			"/home/theprogramer/Projetos/domesticanet/app/",
+			"/home/theprogramer/Projetos/domesticanet/app/views/static_pages",
+			"/home/theprogramer/Projetos/domesticanet/app",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"action",
+			"é preciso",
+			"action",
+			"address",
+			"gotop",
+			"script",
+			"open_sansregular",
+			"oswaldregular",
+			"path",
+			"img_",
+			"sche",
+			"profile",
+			"roles",
+			"Este produto não esta disponível em estoque",
+			"Produto indisponível",
+			"dashbo",
+			"testimony",
+			"Nome",
+			"nome",
+			"default country",
+			"default",
+			"Features",
+			"features",
+			"settings:",
+			"pt:",
+			"---\\npt:",
+			"head",
+			"lan",
+			"pagamento",
+			"Profile",
+			"__PS_BASE_URI__",
+			"orderState",
+			"vali",
+			"Moip",
+			"status",
+			"moip",
+			"orderstate",
+			"Order",
+			"addproduct",
+			"payment",
+			"port",
+			"new",
+			"cen",
+			"phone",
+			"footer",
+			"img",
+			"shippin",
+			"products",
+			"cms",
+			"update",
+			"email",
+			"name",
+			"review",
+			"please choose",
+			"please",
+			"continu",
+			"choose",
+			"you",
+			"family",
+			"ver",
+			"label",
+			"description",
+			"unit",
+			"type",
+			"name",
+			"{$product->description}",
+			"short_descr",
+			"#descr",
+			"_tag",
+			".ex",
+			"headings",
+			"revi",
+			"data s",
+			"Print",
+			"model",
+			"footer",
+			"scree",
+			"post",
+			"ajax_cart_q",
+			"qt",
+			"last_posts",
+			"sectionblo",
+			"nav",
+			"p {",
+			"#a9a9a9",
+			"p {",
+			"osw",
+			".menu_label_tag",
+			"menu_label",
+			"top",
+			"wordpress",
+			"avat",
+			"container",
+			"info",
+			"product_re",
+			"@media",
+			"left",
+			"social",
+			"cda",
+			"sectionga",
+			"title",
+			"icons",
+			"nav",
+			"section",
+			"init",
+			"action_mailer",
+			".element img",
+			"bottomw",
+			".element",
+			".element img",
+			".element",
+			"element",
+			".element img",
+			"asse",
+			"compi",
+			".tip",
+			"placeho",
+			"chield",
+			"child",
+			"Geolocation",
+			"panel_profile",
+			"|",
+			"profile",
+			"particul",
+			"profile",
+			"init",
+			"divergência",
+			"btn"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Open Sans",
+			"Oswald",
+			"pt-BR:",
+			"---\\npt-BR:",
+			"state",
+			"name",
+			"acronym",
+			"rgba($base, 0.9)",
+			"$darkBase",
+			"$base",
+			"<a href=\"http://theprogramer.com.br/\" class=\"link\" target=\"_blank\">TheProgramer.com.br</a></strong></div>",
+			"&copy; 2014 Pote de Doçuras, Designed by ",
+			"rgba(252, 199, 31, 0.75);",
+			"#fdf9f4",
+			"#b76e25",
+			"asset-url(",
+			".jpg\"",
+			".png\"",
+			"\"",
+			"",
+			"= image_tag \"",
+			"Lobster"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 14,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/models/charger/transaction.rb",
+					"settings":
+					{
+						"buffer_size": 1631,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1157,
+								1157
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/models/charger/plan.rb",
+					"settings":
+					{
+						"buffer_size": 1492,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								496,
+								496
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 69.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 902,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								630,
+								630
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/assets/stylesheets/charger/application.css",
+					"settings":
+					{
+						"buffer_size": 686,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								646,
+								646
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/theprogramer/Projetos/primas/Gemfile",
+					"settings":
+					{
+						"buffer_size": 2529,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								976,
+								976
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/theprogramer/Projetos/primas/app/assets/javascripts/application.js",
+					"settings":
+					{
+						"buffer_size": 775,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								583,
+								583
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "spec/dummy/app/assets/javascripts/application.js",
+					"settings":
+					{
+						"buffer_size": 766,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								583,
+								583
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/assets/javascripts/charger/application.js",
+					"settings":
+					{
+						"buffer_size": 766,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								723,
+								723
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "lib/charger/engine.rb",
+					"settings":
+					{
+						"buffer_size": 783,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								122,
+								122
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "charger.gemspec",
+					"settings":
+					{
+						"buffer_size": 872,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								773,
+								773
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/controllers/charger/plans_controller.rb",
+					"settings":
+					{
+						"buffer_size": 734,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								403,
+								403
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/views/charger/plans/edit.html.erb",
+					"settings":
+					{
+						"buffer_size": 44,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								44,
+								44
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "app/views/charger/plans/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 33,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								33,
+								33
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 138,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								131,
+								131
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "app/views/charger/subscriptions/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 747,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								606,
+								606
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 71.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "app/views/charger/plans/show.json.jbuilder",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/home/theprogramer/Projetos/cuidados_marinho/build/library/dispatcher.php",
+					"settings":
+					{
+						"buffer_size": 579,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5,
+								5
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "/home/theprogramer/Projetos/domesticanet/config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 3461,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								274,
+								274
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 207.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "spec/dummy/config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								193,
+								193
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "app/models/charger/billing.rb",
+					"settings":
+					{
+						"buffer_size": 805,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								542,
+								542
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "app/models/charger/subscription.rb",
+					"settings":
+					{
+						"buffer_size": 2107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								191,
+								191
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"/home/theprogramer/Projetos/domesticanet/app/assets/stylesheets/partials/_variables.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 164.0,
+	"status_bar_visible": true
+}
